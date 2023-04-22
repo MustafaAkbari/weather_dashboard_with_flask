@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+<br><br>
+<div class="container">
+
+    <h2 class="text-secondary">Weather in {{ location }}</h2>
+    <h2 class="text-secondary">Weather situation: {{weather_situation}}</h2>
+    <h2 class="text-secondary">Temperature: {{temperature}}°F</h2>
+
+
+</div>
+{% endblock %}
+</body>
+</html>

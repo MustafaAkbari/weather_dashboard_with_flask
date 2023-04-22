@@ -1,0 +1,19 @@
+body {
+  background-image: url("images/w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.0); /* white with 50% opacity */
+}
+
+input {
+  border: none;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* add a shadow with 5px blur radius and 0px x-offset and y-offset */
+}
+
+
+
+
